@@ -33,5 +33,7 @@ public class OrdenaStrings {
 		palavras.forEach(palavra -> System.out.println(palavra));
 		
 		new Thread(() -> System.out.println("Executando um Runnable")).start();
+		
+		new Thread(() -> System.out.println("ök")).start();
 	}
 }
